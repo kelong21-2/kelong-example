@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 %计算GF域内每个码元与“0”码字的码距，并映射在成实子程序：
+=======
+%计算GF域内每个码元与“0”码字的码距，并映射在成实数子：
+>>>>>>> 3317ac3a3bafaa00c265b8b3737fb52982015554
 function distance = gf2num(gf_a)
 distance = -1;
 if (gf_a == gf(0,3)) distance = 0; end
